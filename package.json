@@ -1,0 +1,25 @@
+{
+  "name": "my-todo",
+  "version": "1.0.0",
+  "description": "Simple to do app to practice testing",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.17.2",
+    "chai": "^4.0.2",
+    "express": "^4.15.3",
+    "mocha": "^3.4.2",
+    "mongoose": "^4.11.1",
+    "morgan": "^1.8.2",
+    "sinon": "^2.3.6",
+    "sinon-mongoose": "^2.0.2"
+  }
+}
